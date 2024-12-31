@@ -20,8 +20,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        View::composer('layouts.app', function ($view){
-            $view->with('menus', config('menu'));
-        });
+        //
     }
 }

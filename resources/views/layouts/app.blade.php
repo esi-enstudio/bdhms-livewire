@@ -18,16 +18,16 @@
     <body class="dark:bg-neutral-800 dark:text-white antialiased">
 
     <!-- ========== HEADER ========== -->
-    @include('layouts.partials.header')
+    @livewire('layouts.header')
     <!-- ========== END HEADER ========== -->
 
     <!-- ========== MAIN CONTENT ========== -->
 
     <!-- Breadcrumb -->
-    @include('layouts.partials.breadcrumb')
+    @livewire('layouts.breadcrumb')
 
     <!-- Sidebar -->
-    @include('layouts.partials.sidebar')
+    @livewire('layouts.sidebar')
     <!-- End Sidebar -->
 
     <!-- Content -->

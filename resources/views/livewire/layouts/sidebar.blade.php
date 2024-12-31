@@ -50,7 +50,7 @@
                                                         <svg class="hs-accordion-active:hidden ms-auto block size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                                                     </button>
 
-                                                    <div id="users-accordion-sub-1-child" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300 hidden" role="region" aria-labelledby="users-accordion-sub-1">
+                                                    <div id="users-accordion-sub-1-child" class="pl-4 hs-accordion-content w-full overflow-hidden transition-[height] duration-300 hidden" role="region" aria-labelledby="users-accordion-sub-1">
                                                         <ul class="pt-1 space-y-1">
                                                             @foreach($firstLevelMenu['children'] as $secondLevelMenu)
                                                                 <li>
