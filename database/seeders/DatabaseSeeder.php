@@ -35,7 +35,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'nilemil007@gmail.com',
             'phone' => '01732547755',
             'role' => 'admin',
-            'status' => 1,
+            'status' => 'active',
             'password' => Hash::make('32133213'),
         ]);
     }
